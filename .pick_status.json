@@ -1,5 +1,761 @@
 [
     {
+        "sha": "22789d34be0fb6d81012e2e4d53b738384eb98db",
+        "description": "v3dv: use vk_alloc instead of malloc",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "e6884df088a1e172cd87956fe9afdac63069eb2c"
+    },
+    {
+        "sha": "36ef75b6eb924cf5ebfb09834067d2519d080ca8",
+        "description": "v3dv: vkCmdWaitEvents2 takes an array of VkDependencyInfo",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "e6884df088a1e172cd87956fe9afdac63069eb2c"
+    },
+    {
+        "sha": "dc08875415064033ea1e344a522273bc1255a3b8",
+        "description": "zink/ci: mark another test as fixed after the frontend caching series",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "4e14da056d623ababf7cf82cf2fca51c18b462f1"
+    },
+    {
+        "sha": "224f774e61e168c493a773696064cadfa11b6e61",
+        "description": "ci: uprev vkd3d-proton to v2.7",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e891e84f4be6271cf34f62768b085ee99b6db86c",
+        "description": "radv: fix setting MIN_LOD for texture descriptors on GFX11",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "617e48ecda41b8bf48db9cff39bac13781949d25",
+        "description": "ci: Collabora farm maintanance",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "798aa43b6b6441eb16ea00b7166a92f97bd7a11e",
+        "description": "microsoft/spirv2dxil: Lower sample pos for fragment shaders",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1399f37a3b64f090649b6610e0ed38e2b76b02f4",
+        "description": "d3d12: Move lower_sample_pos to microsoft/compiler",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ca29d9a67ca94b17443306a962d3a58137fa5775",
+        "description": "ac: fix IB parsing for Stoney",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a54c8cdaf211b40fcc18d11de037b18d79ef6ab5",
+        "description": "ac/gpu_info: simplify how has_accelerated_dot_product is set",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a338a2da588703ad26ddc78611f9698bd1398499",
+        "description": "amd/registers: regenerate gfx11 headers from amd-staging-drm-next",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b361ecc0da887fd7b54db8354c88ba359f0277c0",
+        "description": "amd/registers: describe allowed register ranges better",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ff4cd2133df2856b0bf2276dac89ad5f54665ea6",
+        "description": "amd/registers: fix parse_kernel_headers.py warnings by adding missing enums",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c4104482c87c53c35d0dc61df3688416dc36f234",
+        "description": "ac/llvm: remove unnecessary gfx11 condition for nir_intrinsic_store_buffer_amd",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d79da61ffaa7d7e414ce3af7014de8655042c21b",
+        "description": "dzn: Set Agility SDK parameters and update test expectations",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a954ed2a7053919449170e5c69cc9f304f994a90",
+        "description": "d3d12: Set Agility SDK parameters and update test expectations",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e4025c4712c3f9a18f610676a06ca4f936d26846",
+        "description": "ci/windows: Bump test image tag",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3cd2b8d0c94bdae7c1f41f8501f8daa4d07519a8",
+        "description": "ci/windows: Enable developer mode for test container",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9426425bf0cccf0753b0740d839b932540d9a516",
+        "description": "ci/windows: Get DXIL.dll (and DXCompiler.dll) from GitHub and put it in System32",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c0db462fddab52418c02839ef60782e776e1203d",
+        "description": "ci/windows: Download updated WARP and copy to piglit/vk-gl-cts",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2c17e446fb895337ab3d5a9171859d56d31ddec0",
+        "description": "ci/windows: Download DirectX Agility SDK and copy to piglit/vk-gl-cts",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "70039dcad652e0fe085fd070425c96f5bfd9d7df",
+        "description": "microsoft/compiler: Fix feature flag handling for 64-bit bitcasts",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "814b822fe065ab88409a2833b1c7f331f714b26e",
+        "description": "hasvk: fix android build and reported API version",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "00eefdcd03c0dcff173439107d7ded490a86ff95"
+    },
+    {
+        "sha": "95ed0330667f726474d24d8c56e478e346622b0b",
+        "description": "radv: Use spirv1.5 instead of vulkan1.2",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "271865373ed1b0ba7737a72c6ea8e554981ee079"
+    },
+    {
+        "sha": "08f0d96b7208925d857594ba32c4d2846aba28fe",
+        "description": "tu: VK_EXT_extended_dynamic_state3 is finished",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "85d0205db137ad833bb2b117e67e847cf3b2665b",
+        "description": "tu: Implement extendedDynamicState3ColorWriteMask",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6f759c74a20eeb5a9dc0ada3be5b70b92d5f02cf",
+        "description": "tu: Implement extendedDynamicState3ColorBlendEquation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "536ff112388950cf9e729a0e3ae3d8c9bdd563a2",
+        "description": "tu: Make tu_pipeline::dynamic_state_mask 64-bit",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aab81d660af063aa7fbf22399a9897be9ab78652",
+        "description": "freedreno: Make BIT() 64-bit",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c8c7154c2ecb6d8439cc941985bded3759b8334b",
+        "description": "tu: Implement extendedDynamicState3ColorBlendEnable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f3b3af34685c714cb911f70f8e24f60a88253b95",
+        "description": "tu: Remove blend dependency on attachment format",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "84726da2f4400568bfd13e9ea29fdfa88cd70572",
+        "description": "tu: Implement extendedDynamicState3SampleLocationsEnable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d99e5ffee71886be6255f13ab973b409b891db55",
+        "description": "tu: Clamp sample locations",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e63c8b3bf1b18cf10a6142cf46bc61b2c680e869",
+        "description": "tu: Implement extendedDynamicState3ProvokingVertexMode",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1af2471bd75b166d21baafa047d8ad63cdc49a23",
+        "description": "tu: Implement extendedDynamicState3LineRasterizationMode",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "92dd505f7cf8b90899eab59c83c550a470a2d6fb",
+        "description": "tu: Impement extendedDynamicState3RasterizationStream",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6b829989854e79c65dce631ec5603b7708fff64a",
+        "description": "tu: Rename RASTERIZER_DISCARD state to PC_RASTER_CNTL",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "68b02ff200cc9cd37afb48efc57825bfdee60fda",
+        "description": "tu: Implement extendedDynamicState3DepthClipNegativeOneToOne",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2a19b8d696549da1d52dc51ae6a7af3e7164e07c",
+        "description": "tu: Implement extendedDynamicState3AlphaToOneEnable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "87bdddf8f14eba9cb7c1a139d09e173da12937c7",
+        "description": "tu: Implement extendedDynamicState3AlphaToCoverageEnable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5e362c82c88fe16c3806d9c414f9ed1c86b42ec5",
+        "description": "tu: Implement extendedDynamicState3RasterizationSamples",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "01055198dc2376b5c32f3e00203f71b26a91cc47",
+        "description": "tu: Set default sample mask to all 1's",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e61583f6f13bfc840b5f42ddcc023778f84e22fa",
+        "description": "tu: Split up tu6_update_msaa()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ac051c556d0035c98ad07f44aa89f7438f9e414d",
+        "description": "tu: Don't use rasterizationSamples when enabling sample shading",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f062a644057e94efbf9c39d02da933579b12c800",
+        "description": "tu: Implement extendedDynamicState3SampleMask",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "80befbf844f00a84a776e0eb80a39d305c1d14ed",
+        "description": "tu: Implement extendedDynamicState3LogicOpEnable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "99caf95eba25308287d0af5df7092d0fc936e81b",
+        "description": "tu: Implement extendedDynamicState3Depth*Enable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0e09559bd643d76206d82a97c0cc6d311b8cace1",
+        "description": "tu: Implement extendedDynamicState3TessellationDomainOrigin",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "55bbf56a179cbf520f0336811c1c719b99fb4b59",
+        "description": "tu: Implement extendedDynamicState3PolygonMode",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d20256eba371949533ce790954228f3c1f6b51b6",
+        "description": "tu: Combine GRAS_SU_CNTL drawstate with rast draw state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "009df9f7780e639cc797ed27812a24f74508e222",
+        "description": "tu: VK_EXT_extended_dynamic_state3 boilerplate",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4466f9aa02dec99c6879e5e357788843c3b573e5",
+        "description": "tu: tu: Clear patchControlPoints dirty state with static patchControlPoints",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "main_sha": null,
+        "because_sha": "68f3c38c8011e3ff304a67b6ffb33fd21ee65b0c"
+    },
+    {
+        "sha": "9f7896685fe212eb676313f1aad8e9f423edd5ff",
+        "description": "tu: Ignore line stipple dynamic state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9061f5f57d95d27e1ed4c0667fd48c085eea602f",
+        "description": "tu: Clear viewport dirty state with static viewports",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6da2320a92e4b9384eba42dbbc01c813baf93e22",
+        "description": "radv/rra: Print invalid node types",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fd14fcb9f995efcd08fddfd00101fe626f9bbe4b",
+        "description": "intel: Add and use intel_gem_get_context_param()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "39486661e9c24e39a21bc8e9e8fdc8ccf45216ad",
+        "description": "intel: Add and use intel_gem_set_context_param()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6ae6921216c0465c10e6df3e5e46f6d03633b1ca",
+        "description": "intel: Add and use intel_gem_destroy_context()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f928ead62593238d464ec263c9a287c50ea54780",
+        "description": "intel: Add and use intel_gem_create_context()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ce4a7e7d40a777c0551d6c6eefefb4ecd63abf65",
+        "description": "intel: Refactor intel_gem_create_context_engines()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f8c9b5a96ba92f6e82d1dc17392c61e049aab38a",
+        "description": "iris: Do not set I915_CONTEXT_PARAM_RECOVERABLE twice",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5f7c2b0e1676100ff3098731424165afa5edf7aa",
+        "description": "intel/common: Add and use intel_gem_create_context_ext()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aa35e86cc8aee67d95d2d925a7d9485906ab9d13",
+        "description": "etnaviv: warn when imported TS buffer is the same as color buffer",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c2b06e1a38205f71120ae46eb4ee581d3a74a4f4",
+        "description": "etnaviv: add support for sharing the TS buffer",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f7463b1292316f47ffa9c2bc91f1dadea7201913",
+        "description": "etnaviv: canonicalize modifier on import",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "48b6ec82b4e46e6e166784df392da744b6d96faa",
+        "description": "drm-uapi: bump headers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "539cc909292b78ea2c9b1148464edec14ff9d8ed",
+        "description": "etnaviv: allocate TS memory from KMS when resource bind is SCANOUT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f1f89b2e988446ef83b3da4fc8a0a657392e99b5",
+        "description": "etnaviv: rework modifier queries",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a4193b859444f5092101cd3a14479029cb78c1ae",
+        "description": "etnaviv: correct comment about tile status size",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f525a152a7cf04ea610253b612f8d11f6515ed86",
+        "description": "docs: make the \"amber\" branch's name explicit",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "381e0b43d617226e6ab0e4a2b2fef092c8d0a0a5",
+        "description": "mesa: Add test to prevent windows.h to be included in shared headers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bf338c3d7ffeabd099169d270df3972dd619ae27",
+        "description": "mesa: #include \"util/glheader.h\" instead GL/gl.h in shared code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "de53069af6f8d94db42337203c8bd09b432b6f61",
+        "description": "mapi: #include \"util/glheader.h\" instead of #include \"GL/gl.h\"",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2c89401f75dce445baf315e7adc4b747a4c92ec1",
+        "description": "glapi: #include \"util/glheader.h\" in glapi_priv.h and glapitable.h directly",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bfa3ce44a66610f8dd3bdcd014c32c14441a7d74",
+        "description": "mesa: Move glheader.h from mesa/main/glheader.h to util/glheader.h",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7b7bbe871c067d1dfdb4fe4adfc0f38d051fe04c",
+        "description": "mesa: sync GLAPIENTRY with KHRONOS_APIENTRY in GL/gl.h",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "147a491a74d0f588b724759d86bde08a96ab1858",
+        "description": "mesa: BUILD_GL32 is not used anymore",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d7b09092d44fa66cd4262eade44163826092ebf7",
+        "description": "mesa: Remove out-dated comment in common_x86.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f40afd1363f9eb586b8d8de59af16683beaf1692",
+        "description": "util: Prevent glheader.h from including <windows.h> by defining APIENTRY",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "afc3d5eff37ed4c0c6f9b1c4da1af60fe72b6b53",
+        "description": "glapi: Remove duplicated #include \"main/glheader.h\"",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fe08c22beed89fec7b80dd4a5714581115763825",
+        "description": "docs: XFree86 source files in libGL.txt are out date, remove it",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ae268884da08d430855a9b4ef7873127047dcfe3",
+        "description": "pvr: Fix NULL pointer indirection in pvr_enable_z_replicate()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b0016bc36a7dee38873c8f1fd93a87b3f0994093",
+        "description": "mesa: Use DEBUG_NAMED_VALUE_END for const struct debug_named_value",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "de6f86fc4412ad703ef0a98ca5c9e88cbf338e48",
+        "description": "docs: Fix features.txt typo",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "main_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "e6884df088a1e172cd87956fe9afdac63069eb2c",
         "description": "v3dv: fix event synchronization",
         "nominated": true,
